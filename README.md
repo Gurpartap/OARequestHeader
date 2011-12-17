@@ -9,9 +9,6 @@ Example Usage
 This is how OARequestHeader is implemented in GSTwitPicEngine - (http://github.com/Gurpartap/GSTwitPicEngine):
 
 <pre>
-// Twitter OAuth Echo.
-NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.twitpic.com/2/upload.%@", TWITPIC_API_FORMAT]];
-
 OAConsumer *consumer = [[[OAConsumer alloc] initWithKey:TWITTER_OAUTH_CONSUMER_KEY secret:TWITTER_OAUTH_CONSUMER_SECRET] autorelease];
 
 // NSLog(@"consumer: %@", consumer);
